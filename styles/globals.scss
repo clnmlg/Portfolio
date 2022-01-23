@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #E76161;
+  font-size: 48px;
+  margin: 10px;
+  font-family: 'JetBrains';
+}
+
+h2 {
+  color: #D5D5D5;
+  font-size: 21px;
+  font-family: 'JetBrains';
+}
+
+h4 {
+  color: #E76161;
+  font-size: 10px;
+  font-family: 'JetBrains';
+}
+
+b {
+  color: #E76161;
+  font-family: 'JetBrains';
+}
+
+@font-face {
+  font-family: 'JetBrains';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('JetBrains'), url(/fonts/JetBrains.woff2) format('woff2');
+}
