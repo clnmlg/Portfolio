@@ -37,8 +37,8 @@ export default function VHome() {
             <Fade>
               <h1 className={styles.linkBoxTitle}>Resume</h1>
               <h2 className={styles.linkBoxTextContent}>
-                Here you can find out more about projects
-                I've been part of and technologies I use every day.</h2>
+                Find out more about projects
+                I've been part of and stacks I use every day.</h2>
               <a href= "https://i.stack.imgur.com/OCysR.png" download className={styles.linkBoxButton}>Download my Resume</a>
               
             </Fade>
@@ -47,7 +47,7 @@ export default function VHome() {
         </div>
         <div className={styles.technologiesAndTools}>
           <Fade>
-            <h1>Technologies & Tools</h1>
+            <h1>Stacks & Tools</h1>
             <VToolsTech/>
           </Fade>
         </div>
@@ -55,7 +55,7 @@ export default function VHome() {
             <div className={styles.linkBox}>
               <Fade>
                 <h1 className={styles.linkBoxTitle}>Contact</h1>
-                <h2 className={styles.linkBoxTextContent}>For dev missions or any other request, do not hesitate to send me an email.</h2>
+                <h2 className={styles.linkBoxTextContent}>A dev mission or any other request? Send me an email.</h2>
                   <a href="mailto:colin.mlg@posteo.net" className={styles.linkBoxButton}>email</a>
               </Fade>
             </div>
