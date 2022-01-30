@@ -8,7 +8,6 @@ import {chevronDown} from '../../assets'
 import styles from './home.module.scss'
 
 export default function VHome() {
-
   return (
     <div className={styles.homeContainer}>
       <Head>
@@ -37,10 +36,10 @@ export default function VHome() {
             <Fade>
               <h1 className={styles.linkBoxTitle}>Resume</h1>
               <h2 className={styles.linkBoxTextContent}>
-                Find out more about projects
+                Find out more about me, projects
                 I've been part of and stacks I use every day.</h2>
-              <a href= "https://i.stack.imgur.com/OCysR.png" download className={styles.linkBoxButton}>Download my Resume</a>
-              
+              <a href= "https://github.com/clnmlg/resume/blob/main/Resume%20(FR).pdf" download className={styles.linkBoxButton}>Download (FR)</a><br></br>
+              <a href= "https://github.com/clnmlg/resume/blob/main/Resume%20(EN).pdf" download className={styles.linkBoxButton}>Download (EN)</a>
             </Fade>
           </div>
           <div className={styles.workHistoryBackground}/>
